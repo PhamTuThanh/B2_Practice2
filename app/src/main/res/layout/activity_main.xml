@@ -31,7 +31,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="190dp"
                 android:layout_height="60dp"
-                android:layout_marginLeft="80dp"
+                android:layout_marginLeft="60dp"
                 android:layout_marginTop="15dp"
                 android:text="Chọn dịch vụ"
                 android:textColor="@color/white"
@@ -42,12 +42,15 @@
                 android:id="@+id/button"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
+                android:layout_marginTop="13dp"
                 android:layout_marginRight="60dp"
-                android:text="THOÁT"
                 android:background="@color/white"
-                android:textColor="@color/black"
-                android:layout_marginTop="13dp"/>
-
+                android:backgroundTint="@color/white"
+                android:backgroundTintMode="multiply"
+                android:onClick="exit"
+                android:tag="View"
+                android:text="THOÁT"
+                android:textColor="@color/black" />
         </TableRow>
 
         <TableRow
